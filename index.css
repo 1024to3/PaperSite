@@ -1,0 +1,39 @@
+body{
+    background: url('img/bg/paper/webtreats-paper-pattern-1-blue.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.weird{
+    opacity: 0.8;
+    filter: alpha(opacity=80)
+}
+
+img{
+    max-width:100%;
+    max-height:200px;
+}
+
+#previewList{
+    font-size:0;
+    left:5%;
+    margin: 2%;
+    border: 1px dashed rgb(10,10,10);
+}
+
+#previewList a{
+    margin:2px;
+}
+
+#previewHov {
+    padding: 0;
+    margin: 0;
+    max-width:200px;
+    max-height:200px;
+    position: absolute;
+    border: 1px dashed rgba(30,30,30,90);
+}
+
+h2{
+    text-indent:20px;
+}
